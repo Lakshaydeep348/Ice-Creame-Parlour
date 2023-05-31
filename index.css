@@ -1,0 +1,132 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Helvetica,Arial, sans-serif;
+    background:linear-gradient(100deg, #c2a0a0,#b33838);
+    overflow: hidden;
+}
+
+.container 
+ {
+    height: 80vh;
+    width: 80vw;
+    box-shadow: 6px, 5px, 8px, rgba(0, 0, 0, 0.9);
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/back_our/20190620/ourmid/pngtree-ice-cream-cartoon-white-poster-background-banner-image_161152.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+
+.button 
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+.button button {
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px;
+    width:50%;
+    border: none;
+    background-color: #87210C;
+    outline: none;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.menu
+{
+
+    color: yellow;
+    border: 1px solid yellow;
+    background-color: #615c5c;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    overflow: hidden;
+    display: none;
+    padding: 10px;
+}
+.menu h3
+{
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+}
+.menu ul
+{
+    width: 100%;
+    list-style: none;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 0;
+}
+.items,.items2,.items3,.items4
+{
+    margin: 3px;
+    background-color: black;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+ .menu ul li:hover 
+{
+    background-color: yellow;
+    color: #000000;
+    filter: brightness(1.5);
+}
+
+#cancel
+{
+    margin: 10px;
+}
+.status
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    display: none;
+    text-align: center;
+}
+
+.myLi
+{
+    margin: 3px 5px;
+    background-color: black;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+@media screen and (max-width:500px) 
+{
+    .status{
+        width: 70%;
+        height: 70%;    
+}
+}
+#slide
+{
+    font-weight: bolder;
+    font-size: 20px;
+}
